@@ -239,3 +239,12 @@ function my_theme_woocommerce_support(){
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+
+// Remove the sorting dropdown from Woocommerce
+
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_catalog_ordering', 30 );
+
+// Remove the result count from WooCommerce
+
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 );

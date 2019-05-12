@@ -410,19 +410,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2.4em;
+	font-size: 2.2em;
+	color: #240b24;
 }
 
 h2 {
-	font-size: 2.3em;
+	font-size: 2.1em;
 }
 
 h3 {
-	font-size: 2.2em;
+	font-size: 2.0em;
 }
 
 h4 {
-	font-size: 2em;
+	font-size: 1.9em;
 }
 
 h5 {
